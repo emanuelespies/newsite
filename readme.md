@@ -1,3 +1,14 @@
+# New Website Structure
+
+* Using BEM
+    http://getbem.com/
+* Using CSS grid
+    https://css-tricks.com/snippets/css/complete-guide-grid/
+
+* And using: 
+
+---
+
 # Responsive CSS Transitions
 
 * This is just a project to handle css transitions with media queries
