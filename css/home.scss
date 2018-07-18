@@ -9,17 +9,8 @@ body {
     min-height: 100%;
 }
 
-.wrapper {
-    height: 100%; 
-}
-article {
-   height: 100%;
-   margin: 40px;
-   position: relative;
-}
 
-p {
-    padding: 32px;
-}
-
+@import 'assets/_base';
+@import 'assets/_grid';
+@import 'assets/_navigation';
 @import 'assets/_responsive';

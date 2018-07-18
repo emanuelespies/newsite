@@ -1,0 +1,23 @@
+.gridContainer {
+    padding: 0 16px 16px;
+}
+
+@media only screen and (min-width: 992px) {
+    .gridContainer {
+        display: grid;
+        grid-template-areas:
+            'nav nav nav nav nav nav'
+            'header header header main main main'
+            'aside aside aside main main main'
+            'footer footer footer main main main';
+        grid-gap: 32px 16px;
+        grid-template-columns: 72px 72px 72px 72px 72px 72px;
+        justify-content: space-around;
+        
+        &--topRight1 { grid-area: nav; justify-self: end; }
+        &--left1 { grid-area: header; }
+        &--righ1 { grid-area: main; }
+        &--left2 { grid-area: aside; }
+        &--left3 { grid-area: footer; }
+    }
+}
