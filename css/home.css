@@ -267,4 +267,18 @@ body {
 }
 
 /* nothing here so far */
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.social__item {
+  font-size: 30px;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=home.css.map */
