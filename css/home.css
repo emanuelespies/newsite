@@ -67,6 +67,9 @@ table {
     -webkit-transition: background 2s;
     transition: background 2s;
   }
+  a {
+    color: #4F5B62;
+  }
 }
 
 /* Small devices (phones, 601px and up) */
@@ -83,6 +86,9 @@ table {
     color: #000;
     -webkit-transition: background 2s;
     transition: background 2s;
+  }
+  a {
+    color: #C5003C;
   }
 }
 
@@ -101,6 +107,9 @@ table {
     -webkit-transition: background 2s;
     transition: background 2s;
   }
+  a {
+    color: #c41c00;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -117,6 +126,9 @@ table {
     color: #000;
     -webkit-transition: background 2s;
     transition: background 2s;
+  }
+  a {
+    color: #C68400;
   }
 }
 
@@ -135,6 +147,9 @@ table {
     -webkit-transition: background 2s;
     transition: background 2s;
   }
+  a {
+    color: #003D33;
+  }
 }
 
 /* Super Extra large devices (large laptops and desktops, 1600px and up) */
@@ -152,6 +167,9 @@ table {
     -webkit-transition: background 2s;
     transition: background 2s;
   }
+  a {
+    color: #000051;
+  }
 }
 
 /* 4k devices (large laptops and desktops, 1900px and up) */
@@ -168,6 +186,9 @@ table {
     color: #000;
     -webkit-transition: background 2s;
     transition: background 2s;
+  }
+  a {
+    color: #006db3;
   }
 }
 

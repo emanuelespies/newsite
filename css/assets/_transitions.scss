@@ -5,14 +5,18 @@
     color: $night-mode-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $night-mode-bg;
-       color: $night-mode-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $night-mode-bg;
+    color: $night-mode-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $night-mode-link;
+  }
 }
 
 /* Small devices (phones, 601px and up) */
@@ -22,14 +26,18 @@
     color: $pink-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $pink-bg;
-       color: $pink-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $pink-bg;
+    color: $pink-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $pink-link;
+  }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -39,14 +47,18 @@
     color: $orange-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $orange-bg;
-       color: $orange-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $orange-bg;
+    color: $orange-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $orange-link;
+  }
 }
 
 
@@ -57,14 +69,18 @@
     color: $yellow-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $yellow-bg;
-       color: $yellow-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $yellow-bg;
+    color: $yellow-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $yellow-link;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -74,14 +90,18 @@
     color: $green-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $green-bg;
-       color: $green-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $green-bg;
+    color: $green-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $green-link;
+  }
 }
 
 /* Super Extra large devices (large laptops and desktops, 1600px and up) */
@@ -91,14 +111,18 @@
     color: $purple-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $purple-bg;
-       color: $purple-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $purple-bg;
+    color: $purple-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $purple-link;
+  }
 }
 
 /* 4k devices (large laptops and desktops, 1900px and up) */
@@ -108,12 +132,16 @@
     color: $blue-text;
     -webkit-trasition: background 2s, color 1s;
     transition: background 2s, color 1s;
-   }
+  }
    
-   article {
-       background: $blue-bg;
-       color: $blue-text;
-       -webkit-transition: background 2s;
-       transition: background 2s;
-   }
+  article {
+    background: $blue-bg;
+    color: $blue-text;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+
+  a {
+    color: $blue-link;
+  }
 }
