@@ -68,7 +68,7 @@ table {
     transition: background 2s;
   }
   a {
-    color: #4F5B62;
+    color: #80CBC4;
   }
 }
 
@@ -288,6 +288,25 @@ body {
 }
 
 /* nothing here so far */
+.header {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+/* medium devices until large */
+@media only screen and (min-width: 768px) {
+  .header {
+    font-size: 3em;
+  }
+}
+
+/* 4k devices (large laptops and desktops, 1900px and up) */
+@media only screen and (min-width: 1900px) {
+  .header {
+    font-size: 6em;
+  }
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
