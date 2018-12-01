@@ -1,5 +1,12 @@
 .navigation {
-    &__item {
-        display: inline;
+  padding: 10px;
+  text-align: center;
+
+  &__item {
+    display: inline;
+
+    a {
+      text-decoration: none;
     }
+  }
 }
