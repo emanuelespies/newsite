@@ -1,11 +1,5 @@
 .header {
-<<<<<<< HEAD
   font-size: 1.5em;
-  @include fs(30px);
+  @include dynamicsize(font-size, 30px);
   margin: 10px 0;
-=======
-    font-size: 1.5em;
-    @include dynamicsize(font-size, 30px);
-    margin: 10px 0;
->>>>>>> ab1ab8d2bce84a8526befb6b98d8b29cde89a192
 }

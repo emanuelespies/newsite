@@ -316,14 +316,10 @@ body {
   display: inline;
 }
 
-<<<<<<< HEAD
 .navigation__item a {
   text-decoration: none;
 }
 
-/* nothing here so far */
-=======
->>>>>>> ab1ab8d2bce84a8526befb6b98d8b29cde89a192
 .header {
   font-size: 1.5em;
   font-size: 3vw;
