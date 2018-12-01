@@ -17,6 +17,17 @@
   a {
     color: $night-mode-link;
   }
+
+  .navigation {
+    background: $night-mode-highlight;
+    margin: 0 -15px 30px;
+  
+    &__item {
+      a {
+        color: $night-mode-text;
+      }
+    }
+  }
 }
 
 /* Small devices (phones, 601px and up) */

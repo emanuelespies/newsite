@@ -3,14 +3,14 @@ $wide-screen: "(min-width: 3440px)";
 $min-screen: "(max-width: 768px)";  
 
 @function get-vw($target) { 
-    $vw-context: (1000*.01) * 1px;
-    @return ($target/$vw-context) * 1vw;
+  $vw-context: (1000*.01) * 1px;
+  @return ($target/$vw-context) * 1vw;
 }
 
 // Mixin Dynamic size for font, margin and line-height
 @mixin dynamicsize($property, $size) {
-    #{$property} : get-vw($size); 
-    @media #{$min-screen} {
-        #{$property} : #{$size};
-    }
+  #{$property} : get-vw($size); 
+  @media #{$min-screen} {
+    #{$property} : #{$size};
+  }
 }

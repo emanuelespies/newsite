@@ -1,10 +1,10 @@
 .social {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    &__item {
-        font-size: 30px;
-        margin-right: 10px;
-        @include dynamicsize(margin-right, 10px);
-    }
+  &__item {
+    font-size: 30px;
+    margin-right: 10px;
+    @include dynamicsize(margin-right, 10px);
+  }
 } 
