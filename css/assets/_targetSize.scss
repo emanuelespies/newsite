@@ -7,28 +7,10 @@ $min-screen: "(max-width: 768px)";
     @return ($target/$vw-context) * 1vw;
 }
 
-// Mixin Margin
-@mixin mw($size) {
-    margin-right: get-vw($size); 
+// Mixin Dynamic size for font, margin and line-height
+@mixin dynamicsize($property, $size) {
+    #{$property} : get-vw($size); 
     @media #{$min-screen} {
-        margin-right: $size;
-    }
-}
-
-// Mixin font
-@mixin fs($size) {
-    font-size: get-vw($size); 
-    // Prevent font-size from getting too small
-    @media #{$min-screen} {
-      font-size: $size;
-    }
-}
-
-// Mixin line-height
-@mixin lh($size) {
-    line-height: get-vw($size); 
-    // Prevent line-height from getting too small
-    @media #{$min-screen} {
-        line-height: $size;
+        #{$property} : #{$size};
     }
 }

@@ -5,6 +5,6 @@
     &__item {
         font-size: 30px;
         margin-right: 10px;
-        @include mw(10px);
+        @include dynamicsize(margin-right, 10px);
     }
 } 
