@@ -1,0 +1,31 @@
+// Max breakpoint
+$wide-screen: "(min-width: 3440px)";  
+$min-screen: "(max-width: 768px)";  
+
+@function get-vw($target) { 
+    $vw-context: (1000*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
+// Mixin Margin
+@mixin mw($size) {
+    margin-right: get-vw($size); 
+}
+
+// Mixin font
+@mixin fs($size) {
+    font-size: get-vw($size); 
+    // Prevent font-size from getting too small
+    @media #{$min-screen} {
+      font-size: $size;
+    }
+}
+
+// Mixin line-height
+@mixin lh($size) {
+    line-height: get-vw($size); 
+    // Prevent line-height from getting too small
+    @media #{$min-screen} {
+        line-height: $size;
+    }
+}

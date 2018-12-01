@@ -1,0 +1,7 @@
+.content {
+    font-size: 1.3em;
+    @include fs(18px);
+    line-height: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
