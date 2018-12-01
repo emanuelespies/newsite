@@ -10,6 +10,9 @@ $min-screen: "(max-width: 768px)";
 // Mixin Margin
 @mixin mw($size) {
     margin-right: get-vw($size); 
+    @media #{$min-screen} {
+        margin-right: $size;
+    }
 }
 
 // Mixin font
